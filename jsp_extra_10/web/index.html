@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Extra Example for database with jsp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="input.jsp" method="post">
+            Customer Name:<input type="text" name="name"><br>
+            Customer address:<input type="text" name="address"><br>
+            Customer Mobile no:<input type="text" name="mobile"><br>
+            Customer Email:<input type="email" name="email"><br>
+             Customer City:<input type="text" name="city" list="exampleList"><br>
+            <datalist id="exampleList">
+                <option value="Amreli">  
+                <option value="Surat">
+                <option value="Rajkot">
+                <option value="Ahemdabad">
+            </datalist>
+             <input type="submit">
+        </form>
+    </body>
+</html>

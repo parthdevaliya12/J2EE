@@ -1,0 +1,16 @@
+SMAP
+include_005fdirective_005f2_jsp.java
+JSP
+*S JSP
+*F
++ 0 include_directive_2.jsp
+include_directive_2.jsp
++ 1 index.html
+index.html
+*L
+5,11:49
+1#1,17:60
+15#0:76
+16:77,3
+17,3:80
+*E

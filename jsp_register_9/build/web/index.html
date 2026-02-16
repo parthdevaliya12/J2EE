@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+  
+</head>
+<body>
+    <div class="registration-container">
+        <h2 class="registration-heading">Registration Form</h2>
+        <form action="insert_data.jsp" method="post">
+            <label for="lastname">Student Name:</label>
+            <input type="text" name="lastname" id="lastname" class="input-field" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="input-field" required><br>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" name="mobile" id="mobile" class="input-field" required><br>
+
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" class="input-field" required></textarea><br>
+
+            <label>Gender:</label>
+            Male <input type="radio" name="gender" value="male" class="input-field" required><br>
+            Female <input type="radio" name="gender" value="female" class="input-field" required><br>
+
+            <label for="field">Field:</label>
+            <input type="text" name="field" id="field" list="exampleList" class="input-field"><br>
+            <datalist id="exampleList">
+                <option value="BCA">  
+                <option value="BSC">
+            </datalist>
+
+            <label>Skills:</label>
+            <input type="checkbox" name="skills" value="php"> PHP<br>
+            <input type="checkbox" name="skills" value="java"> JAVA<br>
+            <input type="checkbox" name="skills" value="cpp"> C++<br>
+            <input type="checkbox" name="skills" value="sql"> SQL<br>
+
+            <label for="percentage">Percentage:</label>
+            <input type="text"  name="percentage" class="input-field" required><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
